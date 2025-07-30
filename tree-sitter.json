@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "wikitext",
+      "camelcase": "Wikitext",
+      "title": "Wikitext",
+      "scope": "source.wikitext",
+      "file-types": [
+        "wikitext",
+        "wiki",
+        "mediawiki"
+      ],
+      "injection-regex": "^wikitext$",
+      "class-name": "TreeSitterWikitext"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Parser for Wikitext format.",
+    "authors": [
+      {
+        "name": "Oscar Bender-Stone",
+        "email": "oscar-bender-stone@protonmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/oscar-bender-stone/tree-sitter-wikitext-hl"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}

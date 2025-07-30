@@ -1,5 +1,7 @@
 
 This repository contains all code necessary to implement a wikitext tree-sitter parser.
+This fork makes all essential nodes
+visible for syntax highlighting
 
 # [Tree-Sitter](https://tree-sitter.github.io/tree-sitter/)
 According to tree-sitter's website:
@@ -18,4 +20,3 @@ According to tree-sitter's website:
 ## Credits
 
 The parser is written by [Miel Peeters](https://github.com/mielpeeters) at [GhentCDH](https://www.ghentcdh.ugent.be/) to parse and convert a MediaWiki website.
-
